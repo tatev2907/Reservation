@@ -1,0 +1,6 @@
+type Reservation{
+    id: ID!
+    date:String
+    userId:ID
+    flightId:ID
+}

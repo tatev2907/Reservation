@@ -1,0 +1,4 @@
+type Query{
+    Reservations:[Reservation]
+    flight(id:ID): Flight
+}

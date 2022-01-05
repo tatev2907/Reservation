@@ -1,0 +1,8 @@
+type Flight{
+    id:ID!
+    fromCity:String !
+    toCity: String !
+    flightNumber: String !
+    seatcount: String !
+    reservations:[Reservation]
+}
